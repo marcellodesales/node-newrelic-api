@@ -1,0 +1,37 @@
+{
+  "name": "node-newrelic-api",
+  "version": "0.1.0",
+  "description": "Async and Sync Node.js bindings for the New Relic XML and RESTFul APIs into a single one.",
+  "keywords": [
+    "newrelic",
+    "monitoring",
+    "api",
+    "client"
+  ],
+  "homepage": "https://github.com/marcellodesales/node-newrelic-api",
+  "bugs": {
+    "url": "https://github.com/marcellodesales/node-newrelic-api/issues"
+  },
+  "author": {
+    "name": "Marcello de Sales",
+    "email": "Marcello_deSales@intuit.com",
+    "url": "https://github.com/marcellodesales"
+  },
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:marcellodesales/node-newrelic-api.git"
+  },
+  "dependencies": {
+    "deasync": "0.0.7",
+    "gift": "^0.5.0",
+    "restify": "^2.8.3",
+    "xml2js": "^0.4.4"
+  },
+  "devDependencies": {},
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
