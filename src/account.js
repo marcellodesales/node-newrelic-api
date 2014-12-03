@@ -7,7 +7,7 @@ var xml2js = require("xml2js");
 var xmlParser = new xml2js.Parser();
 var deasync = require("deasync");
 
-var utils = require("../lib/utils");
+var utils = require("../").utils;
 
 /**
  * Based on https://rpm.newrelic.com/accounts/xxxxxx/applications/yyyyyy/deployments/instructions",

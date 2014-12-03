@@ -7,8 +7,8 @@ var deasync = require("deasync");
 var xml2js = require("xml2js");
 var xmlParser = new xml2js.Parser();
 
-var utils = require("../lib/utils");
-var cache = require("../lib/deployment_cache");
+var utils = require("../").utils;
+var cache = require("../").deploymentsCache;
 
 /**
  * Based on https://rpm.newrelic.com/accounts/xxxxx/applications/yyyyyy/deployments/instructions",

@@ -1,6 +1,6 @@
 var moment = require("moment-timezone");
-var cache = require("../lib/deployment_cache");
-var utils = require("../lib/utils");
+var cache = require("../").deploymentsCache;
+var utils = require("../").utils;
 
 var isStale = cache.isCacheStale("myApp");
 

@@ -1,4 +1,4 @@
-var utils = require("../lib/utils");
+var utils = require("../").utils;
 
 var hostname = utils.getHostname();
 

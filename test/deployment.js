@@ -1,8 +1,8 @@
-var accountApi = require("../src/account");
-var appsApi = require("../src/applications");
-var deploymentsApi = require("../src/deployments");
+var accountApi = require("../").accountApi;
+var appsApi = require("../").appApi;
+var deploymentsApi = require("../").deploymentsApi;
 
-var utils = require("../lib/utils");
+var utils = require("../").utils;
 
 var apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 var appName = "PACKAGE_JSON_APP_NAME";
