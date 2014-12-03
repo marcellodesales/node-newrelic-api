@@ -17,8 +17,10 @@ New Relic provides some of their APIs through XML or RESTful JSON endpoints, but
 
 The APIs added per version are as follows:
 
-| Version | Capability
+| Version | Feature
 |-------  | ---------
+| 0.1.1   | * Deployments: Caches the application deployment 
+| -----   | --------
 | 0.1.0   | * *Accounts*: Retrieve account information; (XML v1 API)
 |         | * *Application*: Retrieve application information; (JSON V2 API)
 |         | * *Deployments*: Submits application deployment information. (XML V1 API)

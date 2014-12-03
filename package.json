@@ -1,6 +1,6 @@
 {
   "name": "node-newrelic-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Async and Sync Node.js bindings for the New Relic XML and RESTFul APIs into a single one.",
   "keywords": [
     "newrelic",

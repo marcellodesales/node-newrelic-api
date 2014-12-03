@@ -4,8 +4,8 @@ var deploymentsApi = require("../src/deployments");
 
 var utils = require("../lib/utils");
 
-var apiKey = "8cd00a286e9320f60794043d42cae7649c76d50e0b25be2";
-var appName = "intuit-sp-sample";
+var apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+var appName = "PACKAGE_JSON_APP_NAME";
 
 var headCommit = utils.getGitHeadSHA();
 
