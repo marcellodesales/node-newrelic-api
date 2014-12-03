@@ -25,10 +25,12 @@
   "dependencies": {
     "deasync": "0.0.7",
     "gift": "^0.5.0",
+    "moment-timezone": "^0.2.5",
     "restify": "^2.8.3",
     "xml2js": "^0.4.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+  },
   "licenses": [
     {
       "type": "MIT"
