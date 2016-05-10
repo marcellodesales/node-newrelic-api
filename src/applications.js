@@ -3,7 +3,6 @@
 "use strict";
 
 var restify = require("restify");
-var deasync = require("deasync");
 
 /**
  * Based on https://rpm.newrelic.com/accounts/xxxxxx/applications/yyyyyy/deployments/instructions",
@@ -41,9 +40,4 @@ module.exports.get = function(opt, callback) {
       }
     });
   });
-};
-
-module.exports.getSync = function(opts) {
-  var getSync = deasync(this.get);
-  return getSync(opts);
 };

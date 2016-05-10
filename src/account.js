@@ -5,7 +5,6 @@
 var restify = require("restify");
 var xml2js = require("xml2js");
 var xmlParser = new xml2js.Parser();
-var deasync = require("deasync");
 
 var utils = require("../").utils;
 
@@ -56,12 +55,4 @@ module.exports.get = function(opt, callback) {
       callback(null, account);
     });
   });
-};
-
-/**
- * @return {object} The account information from the sync call.
- */
-module.exports.getSync = function(opt) {
-  var getSync = deasync(this.get);
-  return getSync(opt);
 };
